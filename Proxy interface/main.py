@@ -10,7 +10,7 @@ app.config.from_object(__name__)
 def show_ip():
     db = pymysql.connect(host='localhost',
                          user='root',
-                         password='ricot1993',
+                         password='',
                          db='Webclawer')
 
     cursor = db.cursor()

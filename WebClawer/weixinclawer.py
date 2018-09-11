@@ -111,7 +111,7 @@ def get_detail(article_url):
 def create_table():
     db = MySQLdb.connect(host='localhost',
                          user='root',
-                         password='ricot1993',
+                         password='',
                          db='Webclawer')
     cursor = db.cursor()
 
@@ -126,7 +126,7 @@ def create_table():
 def insert_db(name, date, url):
     db = MySQLdb.connect(host='localhost',
                          user='root',
-                         password='ricot1993',
+                         password='',
                          db='Webclawer',
                          charset='utf8')
     cursor = db.cursor()

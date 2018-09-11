@@ -4,7 +4,7 @@ import MySQLdb
 def creattable():
     db = MySQLdb.connect(host='localhost',
                          user='root',
-                         password='ricot1993',
+                         password='',
                          db='Webclawer')
     cursor = db.cursor()
 
@@ -19,7 +19,7 @@ def creattable():
 def insertdb(time, ip):
     db = MySQLdb.connect(host='localhost',
                          user='root',
-                         password='ricot1993',
+                         password='',
                          db='Webclawer')
     cursor = db.cursor()
 
@@ -37,7 +37,7 @@ def insertdb(time, ip):
 def inquerydb():
     db = MySQLdb.connect(host='localhost',
                          user='root',
-                         password='ricot1993',
+                         password='',
                          db='Webclawer')
     cursor = db.cursor()
 
@@ -62,7 +62,7 @@ def inquerydb():
 def deletedb(ip):
     db = MySQLdb.connect(host='localhost',
                          user='root',
-                         password='ricot1993',
+                         password='',
                          db='Webclawer')
     cursor = db.cursor()
 
